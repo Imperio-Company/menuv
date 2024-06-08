@@ -114,7 +114,7 @@ exec(`npx webpack${argumentString}`, (err, stdout, stderr) => {
         }
 
         if (copy_file.deleteAfter)
-            fse.rmdirSync(from_file_path, { recursive: true });
+            fse.rmSync(from_file_path, { recursive: true });
     }
 
     let menuv_file = fs.readFileSync(PATHS.MENUV, { encoding: 'utf8' });

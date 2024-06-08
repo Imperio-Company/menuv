@@ -68,11 +68,11 @@ local MenuV = setmetatable({
     ---@type boolean
     Loaded = false,
     ---@type number
-    ThreadWait = Utilities:Ensure((Config or {}).HideInterval, 250),
+    ThreadWait = Utilities:Ensure((MenuV_Config or {}).HideInterval, 250),
     ---@type table<string, string>
     Translations = translations or {},
     ---@type table<string, table>
-    Sounds = Utilities:Ensure((Config or {}).Sounds, {}),
+    Sounds = Utilities:Ensure((MenuV_Config or {}).Sounds, {}),
     ---@type boolean
     Hidden = false
 }, {})

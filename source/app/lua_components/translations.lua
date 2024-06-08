@@ -21,7 +21,7 @@ local Utilities = assert(Utilities)
 local translations = {}
 
 --- Load all translations
-local lang = Utilities:Ensure((Config or {}).Language, 'en')
+local lang = Utilities:Ensure((MenuV_Config or {}).Language, 'en')
 local translations_path = ('languages/%s.json'):format(lang)
 local translations_raw = LoadResourceFile('menuv', translations_path)
 

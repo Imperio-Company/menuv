@@ -20,7 +20,7 @@
 - Rebindable keys
 - Event-based callbacks
 - Uses `2 msec` while menu open and idle.
-- Documentation on [menuv.fivem.io/api/](https://menuv.fivem.io/api/)
+- Documentation on [menuv.netlify.app/](https://menuv.netlify.app/) or [menuv-docs.pages.dev/](https://menuv-docs.pages.dev/)
 - Themes: **[default](https://i.imgur.com/xGagIBm.png)** or **[native](https://i.imgur.com/KSkeiQm.png)**
 
 ## Compile files
@@ -107,7 +107,7 @@ item:On(event: string, callback: function);
 ```
 
 ## Documentation
-Read **[MenuV documentation](https://menuv.fivem.io/api/)**
+Read **[MenuV Documentation Mirror 1](https://menuv.netlify.app/) or [MenuV Documentation Mirror 2](https://menuv-docs.pages.dev/)**
 
 ## License
 Project is written by **[ThymonA](https://github.com/ThymonA/)** and published under

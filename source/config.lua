@@ -7,7 +7,7 @@
 -- Version: 1.0.0
 -- Description: FiveM menu library for creating menu's
 ----------------------- [ MenuV ] -----------------------
-Config = {
+MenuV_Config = {
     Language = 'en',
     HideInterval = 250,
     Sounds = {
@@ -44,5 +44,5 @@ Config = {
     }
 }
 
-_G.Config = Config
-_ENV.Config = Config
+_G.MenuV_Config = MenuV_Config
+_ENV.MenuV_Config = MenuV_Config
